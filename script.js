@@ -18,10 +18,12 @@ changeButtons.forEach(item=>{
 let options = document.querySelectorAll('.option')
 
 function toggleAnswer(e){
-	e.target.parentElement.children.forEach(item=>{
-		item.classList.remove('chosen')
-	})
+	// e.target.parentElement.children.forEach(item=>{
+	// 	item.classList.remove('chosen')
+	// })
 	e.target.classList.toggle('chosen')
+	console.log(e.target)
+	console.log(e.target.parentElement)
 }
 options.forEach(item=>{
 	item.addEventListener('click', toggleAnswer)
