@@ -16,15 +16,39 @@ changeButtons.forEach(item=>{
 //Selecting answer
 
 let options = document.querySelectorAll('.option')
+console.log(options)
 
 function toggleAnswer(e){
-	// e.target.parentElement.children.forEach(item=>{
-	// 	item.classList.remove('chosen')
+	let sibs = e.target.parentElement.querySelectorAll(".chosen");
+	sibs.forEach(item=>{
+			item.classList.remove('chosen')
+		
+	}
+		)
+		e.target.classList.add('chosen')
+		console.log(e.target)
+	// sibs.forEach(item=>{
+	// 	if(item.classList.contains('chosen')){
+	// 		item.classList.remove('chosen')
+	// 	}
 	// })
-	e.target.classList.toggle('chosen')
-	console.log(e.target)
-	console.log(e.target.parentElement)
 }
 options.forEach(item=>{
 	item.addEventListener('click', toggleAnswer)
 })
+
+
+
+//Checking answers
+
+
+// console.log(document.querySelector('#checkAnswers'))
+
+// let checkButton = document.querySelector('#checkAnswers')
+// console.log(checkButton)
+
+// checkButton.addEventListener('click', checkAnswersFunction)
+
+// function checkAnswersFunction(){
+// 	console.log('hello')
+// }

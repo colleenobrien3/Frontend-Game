@@ -40,11 +40,11 @@ footer {
 .questionDiv {
 	height: 100%;
 	widows: 100%;
-	z-index: 3;
 	position: absolute;
 	opacity: 0;
 	text-align: center;
 	margin: auto;
+	background-color: blue;
 }
 
 .active {
@@ -58,7 +58,7 @@ footer {
 }
 
 .chosen {
-	background-color: green;
+	border: solid;
 }
 
 
