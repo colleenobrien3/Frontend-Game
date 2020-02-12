@@ -42,13 +42,46 @@ options.forEach(item=>{
 //Checking answers
 
 
-// console.log(document.querySelector('#checkAnswers'))
+console.log(document.querySelector('#checkAnswers'))
 
-// let checkButton = document.querySelector('#checkAnswers')
-// console.log(checkButton)
+let checkButton = document.querySelector('#checkAnswers')
+console.log(checkButton)
 
-// checkButton.addEventListener('click', checkAnswersFunction)
+checkButton.addEventListener('click', checkAnswersFunction)
 
-// function checkAnswersFunction(){
-// 	console.log('hello')
-// }
+let points = 0
+
+function checkAnswersFunction(){
+	let correctAnswers = document.getElementsByClassName('chosen correct')
+	for (let i=0; i<correctAnswers.length; i++){
+		points+=1
+	}
+	console.log(points)
+	document.querySelector('.winMessage').innerText='You got ' + points + ' correct.'
+	document.querySelector('.winMessage').classList.toggle('hidden')
+	// correctAnswers.forEach(item=>{
+	// 	console.log('hello')
+	// })
+	// console.log(points)
+	// correctAnswers.forEach(item=>{
+	// 	if(item.classList.contains('chosen')){
+	// 		console.log(item)
+	// 	}
+	// })
+}
+
+// let correctAnswers = document.querySelectorAll('.correct .chosen')
+// console.log(correctAnswers)
+
+// correctAnswers.forEach(item=>{
+// 	if(item.classList.contains('chosen')){
+// 		console.log(item.classList)
+// 		}
+// 	})
+	
+
+
+
+
+
+
