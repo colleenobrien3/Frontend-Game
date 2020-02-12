@@ -83,6 +83,13 @@ function checkAnswersFunction(){
 	
 document.querySelector('.reload').addEventListener('click', function(){location.reload()})
 
+document.querySelector('#seeAnswersButton').addEventListener('click', showModal)
+
+function showModal(){
+	document.querySelector('#answerModal').classList.add('active')
+	document.querySelector('#Submit').classList.toggle('active')
+}
+
 
 
 
