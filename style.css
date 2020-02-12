@@ -73,6 +73,20 @@ footer {
 	padding: 7%;
 }
 
+.qSpan {
+	background-color: white;
+	height: 30vh;
+	width: 40%;
+	border: solid;
+	border-color: rgb(204, 158, 91);
+	box-shadow: 10px 10px;
+	padding: 5%;
+	margin-left: 1%;
+	font-size: 1.4em;
+	border-radius: 20px;
+	font-family: 'Merriweather', serif;
+}
+
 .active {
 	z-index: 1;
 	position: absolute;
@@ -80,11 +94,19 @@ footer {
 }
 
 .option {
-	color: pink;
+	padding: .2em;
+	border-radius: 10px;
+}
+
+.option:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	background-color: rgb(204, 158, 91);
 }
 
 .chosen {
 	border: solid;
+	border-color: rgb(204, 158, 91);
 }
 
 .hidden{
@@ -98,12 +120,18 @@ footer {
 	background-image: url('./images/jayWrightPup.jpg');
 	background-size: cover;
 	background-position: center center;
-	margin: 5%;
+	margin: 0;
 	border: solid;
-	height: 200px;
-	width: 200px;
+	border-color: rgb(204, 158, 91);
+	height: 20em;
+	width: 20em;
 	border-radius: 20px;
+	box-shadow: 10px 10px;
 
+}
+.question {
+	padding-bottom: 1.2em;
+	font-size: 1.5em;
 }
 
 
