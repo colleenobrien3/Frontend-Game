@@ -57,8 +57,9 @@ function checkAnswersFunction(){
 		points+=1
 	}
 	console.log(points)
-	document.querySelector('.winMessage').innerText='You got ' + points + ' correct.'
+	document.querySelector('.winMessage').innerText='You got ' + points + ' out of 15 correct.'
 	document.querySelector('.winMessage').classList.toggle('hidden')
+	document.querySelector('.endOptions').classList.remove('hidden')
 	checkButton.removeEventListener(checkAnswersFunction)
 	// correctAnswers.forEach(item=>{
 	// 	console.log('hello')
@@ -80,7 +81,7 @@ function checkAnswersFunction(){
 // 		}
 // 	})
 	
-
+document.querySelector('.reload').addEventListener('click', function(){location.reload()})
 
 
 
