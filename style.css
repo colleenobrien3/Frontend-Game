@@ -43,6 +43,15 @@ nav {
 	display: grid;
 }
 
+.change {
+
+}
+
+.change:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
 main {
 	grid-area: content;
 	border: solid;
@@ -75,12 +84,12 @@ footer {
 
 .qSpan {
 	background-color: white;
-	height: 30vh;
+	height: 35vh;
 	width: 40%;
 	border: solid;
 	border-color: rgb(204, 158, 91);
 	box-shadow: 10px 10px;
-	padding: 5%;
+	padding: 3%;
 	margin-left: 1%;
 	font-size: 1.4em;
 	border-radius: 20px;
@@ -106,6 +115,7 @@ footer {
 
 .chosen {
 	border: solid;
+	border-width: .2em;
 	border-color: rgb(204, 158, 91);
 }
 
@@ -130,8 +140,8 @@ footer {
 
 }
 .question {
-	padding-bottom: 1.2em;
-	font-size: 1.5em;
+	padding-bottom: .5em;
+	font-size: 1.2em;
 }
 
 
