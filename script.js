@@ -90,6 +90,7 @@ function showModal(){
 	document.querySelector('#Submit').classList.toggle('active')
 }
 
+document.querySelector('.reloadAgain').addEventListener('click', function(){location.reload()})
 
 
 
