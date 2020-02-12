@@ -59,6 +59,7 @@ function checkAnswersFunction(){
 	console.log(points)
 	document.querySelector('.winMessage').innerText='You got ' + points + ' correct.'
 	document.querySelector('.winMessage').classList.toggle('hidden')
+	checkButton.removeEventListener(checkAnswersFunction)
 	// correctAnswers.forEach(item=>{
 	// 	console.log('hello')
 	// })
