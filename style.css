@@ -58,12 +58,27 @@ nav {
 	padding: 0;
 	outline: none;
 	border: none;
-	background-color: black;
+	background-color: rgb(92, 96, 106);
 	color: white;
 }
 
 .size:hover {
 	background-color: rgb(204, 158, 91);
+}
+
+#petersMessage {
+	margin-right: 400px;
+	margin-top: 100px;
+}
+
+#HOME {
+	background-image: url('./images/frPeter.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.sizeOn {
+
 }
 
 .change {
