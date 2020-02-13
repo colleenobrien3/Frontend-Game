@@ -135,6 +135,7 @@ footer {
 	margin-bottom: 0;
 	padding-top: 7%;
 	border-radius: 10px;
+	box-shadow: 10px 10px;
 }
 
 .image {
@@ -179,15 +180,23 @@ footer {
 }
 
 #image6 {
-	background-image: 
+	background-image: url(./images/delaWhere.jpg);
 }
 
 #image7 {
-	background-image: url();
+	background-image: url(./images/archJenk.gif);
 }
 
 #image8 {
 	background-image: url('./images/steveMadden.gif');
+}
+
+#image9 {
+	background-image: url('./images/dontePhil.jpg');
+}
+
+#image10 {
+	background-image: url('./images/jellyJQ.png');
 }
 
 
@@ -202,7 +211,11 @@ footer {
 }
 
 .reload{
-
+	height: 10%;
+	width: 15%;
+	font-size: 1.2em;
+	border-radius: 10px;
+	margin-top: 10em;
 }
 
 #answerModal {
@@ -218,10 +231,17 @@ footer {
 	justify-content: space-around;
 	width: 77%;
 	padding: 7%;
+
 }
 
 #answerModalAnswers {
 	background-color: white;
+	border-radius: 10px;
+	font-size: 1.7em;
+	box-shadow: 10px 10px;
+	line-height: 2em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 #checkAnswers {
@@ -246,6 +266,8 @@ footer {
 .reloadAgain {
 	margin-top: 0;
 	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: 10px 10px;
 }
 
 
