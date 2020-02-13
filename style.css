@@ -14,7 +14,6 @@ body {
 
 header {
 	grid-area: header;
-	border: solid;
 	font-family: 'Merriweather', serif;
 	font-size: 50px;
 	padding: 2%;
@@ -39,12 +38,16 @@ header {
 
 nav {
 	grid-area: nav;
-	border: solid;
 	display: grid;
+	font-size: 20px;
+}
+
+.size {
+	font-size: 20px;
 }
 
 .change {
-
+	border-radius: 10px 10px;
 }
 
 .change:hover {
@@ -251,6 +254,11 @@ footer {
 	border-radius: 10px;
 }
 
+#checkAnswers:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
 .endOptions {
 	margin-top: 0;
 	margin-bottom: 15em;
@@ -267,8 +275,9 @@ footer {
 	margin-top: 0;
 	font-size: 20px;
 	border-radius: 10px;
-	box-shadow: 10px 10px;
 }
+
+
 
 
 
