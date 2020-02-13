@@ -36,6 +36,7 @@ header {
 
 #title {
 	padding: .6em;
+	background-color: rgb(167, 215, 250)
 }
 
 .headerPic {
@@ -57,6 +58,8 @@ nav {
 	padding: 0;
 	outline: none;
 	border: none;
+	background-color: black;
+	color: white;
 }
 
 .size:hover {
