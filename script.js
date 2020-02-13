@@ -57,7 +57,7 @@ function checkAnswersFunction(){
 		points+=1
 	}
 	console.log(points)
-	document.querySelector('.winMessage').innerText='You got ' + points + ' out of 15 correct.'
+	document.querySelector('.winMessage').innerText='You got ' + points + ' out of 10 correct.'
 	document.querySelector('.winMessage').classList.toggle('hidden')
 	document.querySelector('.endOptions').classList.remove('hidden')
 	checkButton.removeEventListener(checkAnswersFunction)

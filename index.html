@@ -17,6 +17,7 @@
 		<!-- <span class="headerPic"></span> -->
 		</header>
 	<nav>
+		<button id="home" class="change size">HOME</button>
 		<button id="changeToQ1" class="change size">Q1</button>
 		<button id="changeToQ2" class="change size">Q2</button>
 		<button id="changeToQ3" class="change size">Q3</button>
@@ -27,10 +28,23 @@
 		<button id="changeToQ8" class="change size">Q8</button>
 		<button id="changeToQ9" class="change size">Q9</button>
 		<button id="changeToQ10" class="change size">Q10</button>
-		<button class="change size">Submit</button>
+		<button class="change size">SUBMIT</button>
 	</nav>
 	<main>
-		<div id="Q1" class="questionDiv active">
+		<div id="HOME" class="questionDiv active">
+			<span class='qSpan'>
+				<div class="question">Question: What is Jay Wright's full name?</div>
+				<div class="correct option">Jerold Taylor Wright Jr.</div>
+				<div class="option">Gerald Taylor Wright III</div>
+				<div class="option">Jason Tyler Wright</div>
+				<div class="option">Gerold Allan 'All' Wright</div>
+			</span>
+			<span id="homeImage" class="image"></span>
+		</div>
+
+
+
+		<div id="Q1" class="questionDiv">
 			<span class='qSpan'>
 				<div class="question">Question: What is Jay Wright's full name?</div>
 				<div class="correct option">Jerold Taylor Wright Jr.</div>
@@ -141,7 +155,7 @@
 		</div>
 
 
-		<div id="Submit" class="questionDiv">
+		<div id="SUBMIT" class="questionDiv">
 			<div>
 				<button id="checkAnswers">See your score.</button>
 			</div>
