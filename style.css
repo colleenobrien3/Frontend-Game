@@ -61,7 +61,8 @@ nav {
 
 #peterMessage {
 	margin-right: 40%;
-	margin-top: 10%;
+	margin-top: 3%;
+	height: 30%
 }
 
 #quest2 {
@@ -105,7 +106,7 @@ nav {
 
 main {
 	grid-area: content;
-	border: solid;
+	/*border: solid;*/
 	height: 700px;
 	display: block;
 	align-items: center;
@@ -137,7 +138,9 @@ a {
 
 footer {
 	grid-area: footer;
-	border: solid;
+/*	border: solid;*/
+	text-align: center;
+	background-color: rgb(167, 215, 250)
 }
 
 .questionDiv {
@@ -384,5 +387,16 @@ footer {
 	margin: 1em;
 }
 
+#footerPic {
+	background-image: url('./images/novaBall.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	border-radius: 100px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
 
