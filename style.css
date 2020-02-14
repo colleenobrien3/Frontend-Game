@@ -68,9 +68,14 @@ nav {
 	font-size: 1em;
 }
 
-#quest3 {
+#quest3, #quest5, #quest7, #quest9 {
 	font-size: 1.1em;
 }
+
+#quest6 {
+	font-size: 1.2em;
+}
+
 
 .size {
 	font-size: 1.2em;
@@ -123,19 +128,20 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	width: 65%;
-	padding: 7%;
+	padding: 5%;
 	padding-top: 8em;
 }
 
 .qSpan {
 	background-color: white;
 	height: 35vh;
-	width: 40%;
+	width: 50%;
 	border: solid;
 	border-color: rgb(204, 158, 91);
 	box-shadow: 10px 10px;
 	padding: 3%;
 	margin-left: 1%;
+	margin-right: 10%;
 	font-size: 1.4em;
 	border-radius: 20px;
 	font-family: 'Merriweather', serif;
@@ -189,10 +195,12 @@ footer {
 	margin: 0;
 	border: solid;
 	border-color: rgb(204, 158, 91);
-	height: 20em;
-	width: 20em;
+	height: 22em;
+	width: 24em;
 	border-radius: 20px;
 	box-shadow: 10px 10px;
+	margin-right: 7%;
+	margin-top: -2%;
 }
 #image1{
 	background-image: url('./images/jayWrightPup.jpg');
@@ -222,6 +230,7 @@ footer {
 
 #image5 {
 	background-image: url('./images/donteYoung.jpeg');
+	background-position: top;
 }
 
 #image6 {
