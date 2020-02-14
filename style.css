@@ -66,7 +66,7 @@ nav {
 }
 
 #quest2 {
-	font-size: 1em;
+	font-size: .85em;
 }
 
 #quest3, #quest5, #quest7, #quest9 {
@@ -403,3 +403,61 @@ footer {
 	margin-bottom: .7em;
 	font-size: 1.5em;
 }
+
+
+@media screen and (max-width: 1024px) {
+	#topPic {
+		height: 10em;
+	}
+	.questionDiv {
+		height: 40em;
+		flex-direction: column;
+	}
+	.qSpan {
+		height: 10em;
+		width: 30em;
+		margin: auto;
+	}
+	.image {
+		width: 20em;
+		height: 16em;
+		margin: auto;
+	}
+	body {
+		font-size: 10px;
+		height: 50vh;
+	}
+	main {
+		height: 50vh;
+	}
+
+	#jersey {
+		margin-top: 6em;
+	}
+	#peterMessage {
+		width: 20em;
+		margin-top: 6em;
+		padding-top: 4em;
+	}
+	#image9 {
+		margin-left: 8em;
+	}
+	#image1 {
+		margin: auto;
+	}
+
+	#answerModal {
+		height: 40em;
+	}
+	#answerModalAnswers {
+		height: 35em;
+		margin-top: 5em;
+		font-size: 1.5em;
+	}
+	.reload {
+		margin: auto;
+	}
+}
+
+
+
