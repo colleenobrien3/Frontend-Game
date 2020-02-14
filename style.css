@@ -50,7 +50,7 @@ header {
 nav {
 	grid-area: nav;
 	display: grid;
-	border: solid;
+	/*border: solid;*/
 }
 
 #HOME {
@@ -116,7 +116,7 @@ main {
 
 aside {
 	grid-area: side;
-	border: solid;
+	/*border: solid;*/
 	background-color: rgb(96, 96, 96);
 	padding: 2em;
 	text-align: center;
@@ -149,7 +149,7 @@ footer {
 	position: absolute;
 	opacity: 0;
 	text-align: center;
-	margin: 4em;
+	margin: 3.5em;
 	background-image: url('./images/novaBackground.jpeg');
 	display: flex;
 	justify-content: space-around;
@@ -399,4 +399,7 @@ footer {
 	margin-bottom: 5px;
 }
 
-
+#sponsored {
+	margin-bottom: .7em;
+	font-size: 1.5em;
+}
