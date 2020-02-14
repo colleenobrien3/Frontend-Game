@@ -459,5 +459,62 @@ footer {
 	}
 }
 
+@media screen and (max-width: 375px) {
+	#topPic {
+		height: 6em;
+	}
+	.questionDiv {
+		width: 63%;
+		height: 50%
+		margin-left:0;
 
+	}
+	.qSpan {
+		width: 80%;
+
+	}
+	.image {
+
+	}
+	body {
+
+	}
+	main {
+		height: 77vh;
+		width: 340px;
+		font-size: 6px;
+
+	}
+
+	#jersey {
+
+	}
+	#peterMessage {
+		width: 60%;
+		margin-top: -10%;
+		margin-left: 20%
+	}
+	#HOME {
+		background-position: right bottom;
+	}
+	#image9 {
+
+	}
+	#image1 {
+
+	}
+
+	#answerModal {
+
+	}
+	#answerModalAnswers {
+
+	}
+	.reload {
+	
+	}
+	#sponsored {
+		font-size: 1em;
+
+	}
 
