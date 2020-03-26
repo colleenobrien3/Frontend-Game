@@ -145,7 +145,7 @@ footer {
 
 .questionDiv {
 	height: 50%;
-	widows: 100%;
+	/* widows: 100%; */
 	position: absolute;
 	opacity: 0;
 	text-align: center;
@@ -312,7 +312,7 @@ footer {
 	width: 5em;
 	height: 58%;
 	background-color: pink;
-	widows: 100%;
+	/* widows: 100%; */
 	position: absolute;
 	text-align: center;
 	margin: 3em;
@@ -518,7 +518,5 @@ footer {
 	
 	}
 	#sponsored {
-		font-size: 1em;
-
+		font-size: 1em
 	}
-
